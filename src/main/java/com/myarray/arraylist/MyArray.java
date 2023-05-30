@@ -1,5 +1,6 @@
 package com.myarray.arraylist;
 
+import java.util.Arrays;
 import java.util.Iterator;
 
 public class MyArray<T> implements Injection<T>{
@@ -65,4 +66,5 @@ public class MyArray<T> implements Injection<T>{
     public Iterator<T> iterator() {
         return new IteratorMyArray<>(values);
     }
+
 }

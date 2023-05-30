@@ -20,6 +20,7 @@ public class ArrayListApplication {
         System.out.println(stringInjection.size());
         System.out.println(stringInjection.isEmpty());*/
 
+        stringInjection.toString();
         for (String str : stringInjection){
             System.out.println(str);
         }
